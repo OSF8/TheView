@@ -1,12 +1,12 @@
 {
   "files": {
-    "init.mjs": "/dist/init.mjs",
+    "init.js": "/dist/init.js",
     "app.css": "/dist/app.css",
-    "app.mjs": "/dist/app.mjs",
-    "runtime.mjs": "/dist/runtime.mjs",
-    "402.mjs": "/dist/402.mjs",
-    "37.mjs": "/dist/37.mjs",
-    "474.mjs": "/dist/474.mjs",
+    "app.js": "/dist/app.js",
+    "runtime.js": "/dist/runtime.js",
+    "186.js": "/dist/186.js",
+    "426.js": "/dist/426.js",
+    "474.js": "/dist/474.js",
     "fonts/FinancierText-Bold.woff2": "/dist/fonts/FinancierText-Bold.woff2",
     "fonts/FinancierText-BoldItalic.woff2": "/dist/fonts/FinancierText-BoldItalic.woff2",
     "fonts/FinancierDisplay-LightItalic.woff2": "/dist/fonts/FinancierDisplay-LightItalic.woff2",
@@ -18,53 +18,32 @@
     "fonts/HelveticaNeue-Bold.woff2": "/dist/fonts/HelveticaNeue-Bold.woff2",
     "fonts/HelveticaNeue-Light.woff2": "/dist/fonts/HelveticaNeue-Light.woff2",
     "app.7e8beb.svg": "/dist/app.7e8beb.svg",
-    "init.mjs.map": "/dist/init.mjs.map",
-    "app.css.map": "/dist/app.css.map",
-    "app.mjs.map": "/dist/app.mjs.map",
-    "runtime.mjs.map": "/dist/runtime.mjs.map",
-    "402.mjs.map": "/dist/402.mjs.map",
-    "37.mjs.map": "/dist/37.mjs.map",
-    "474.mjs.map": "/dist/474.mjs.map",
-    "init.js": "/dist/init.js",
-    "app.js": "/dist/app.js",
-    "runtime.js": "/dist/runtime.js",
-    "402.js": "/dist/402.js",
-    "37.js": "/dist/37.js",
-    "474.js": "/dist/474.js",
     "init.js.map": "/dist/init.js.map",
+    "app.css.map": "/dist/app.css.map",
     "app.js.map": "/dist/app.js.map",
     "runtime.js.map": "/dist/runtime.js.map",
-    "402.js.map": "/dist/402.js.map",
-    "37.js.map": "/dist/37.js.map",
+    "186.js.map": "/dist/186.js.map",
+    "426.js.map": "/dist/426.js.map",
     "474.js.map": "/dist/474.js.map"
   },
   "entrypoints": {
     "init": {
       "js": [
-        "/dist/402.js",
-        "/dist/37.js",
+        "/dist/186.js",
+        "/dist/426.js",
         "/dist/init.js"
       ],
-      "mjs": [
-        "/dist/402.mjs",
-        "/dist/37.mjs",
-        "/dist/init.mjs"
-      ],
+      "mjs": [],
       "css": []
     },
     "app": {
       "js": [
         "/dist/runtime.js",
-        "/dist/402.js",
+        "/dist/186.js",
         "/dist/474.js",
         "/dist/app.js"
       ],
-      "mjs": [
-        "/dist/runtime.mjs",
-        "/dist/402.mjs",
-        "/dist/474.mjs",
-        "/dist/app.mjs"
-      ],
+      "mjs": [],
       "css": [
         "/dist/app.css"
       ],
