@@ -1,0 +1,55 @@
+{
+  "files": {
+    "init.js": "/dist/init.js",
+    "app.css": "/dist/app.css",
+    "app.js": "/dist/app.js",
+    "runtime.js": "/dist/runtime.js",
+    "186.js": "/dist/186.js",
+    "426.js": "/dist/426.js",
+    "474.js": "/dist/474.js",
+    "fonts/FinancierText-Bold.woff2": "/dist/fonts/FinancierText-Bold.woff2",
+    "fonts/FinancierText-BoldItalic.woff2": "/dist/fonts/FinancierText-BoldItalic.woff2",
+    "fonts/FinancierDisplay-LightItalic.woff2": "/dist/fonts/FinancierDisplay-LightItalic.woff2",
+    "fonts/FinancierText-Regular.woff2": "/dist/fonts/FinancierText-Regular.woff2",
+    "fonts/FinancierText-RegularItalic.woff2": "/dist/fonts/FinancierText-RegularItalic.woff2",
+    "fonts/FinancierDisplay-Light.woff2": "/dist/fonts/FinancierDisplay-Light.woff2",
+    "fonts/HelveticaNeue-Regular.woff2": "/dist/fonts/HelveticaNeue-Regular.woff2",
+    "fonts/HelveticaNeue-Medium.woff2": "/dist/fonts/HelveticaNeue-Medium.woff2",
+    "fonts/HelveticaNeue-Bold.woff2": "/dist/fonts/HelveticaNeue-Bold.woff2",
+    "fonts/HelveticaNeue-Light.woff2": "/dist/fonts/HelveticaNeue-Light.woff2",
+    "app.7e8beb.svg": "/dist/app.7e8beb.svg",
+    "init.js.map": "/dist/init.js.map",
+    "app.css.map": "/dist/app.css.map",
+    "app.js.map": "/dist/app.js.map",
+    "runtime.js.map": "/dist/runtime.js.map",
+    "186.js.map": "/dist/186.js.map",
+    "426.js.map": "/dist/426.js.map",
+    "474.js.map": "/dist/474.js.map"
+  },
+  "entrypoints": {
+    "init": {
+      "js": [
+        "/dist/186.js",
+        "/dist/426.js",
+        "/dist/init.js"
+      ],
+      "mjs": [],
+      "css": []
+    },
+    "app": {
+      "js": [
+        "/dist/runtime.js",
+        "/dist/186.js",
+        "/dist/474.js",
+        "/dist/app.js"
+      ],
+      "mjs": [],
+      "css": [
+        "/dist/app.css"
+      ],
+      "svg": [
+        "/dist/app.7e8beb.svg"
+      ]
+    }
+  }
+}
