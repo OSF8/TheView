@@ -1,12 +1,12 @@
 {
   "files": {
-    "init.js": "/dist/init.js",
+    "init.mjs": "/dist/init.mjs",
     "app.css": "/dist/app.css",
-    "app.js": "/dist/app.js",
-    "runtime.js": "/dist/runtime.js",
-    "975.js": "/dist/975.js",
-    "69.js": "/dist/69.js",
-    "39.js": "/dist/39.js",
+    "app.mjs": "/dist/app.mjs",
+    "runtime.mjs": "/dist/runtime.mjs",
+    "975.mjs": "/dist/975.mjs",
+    "69.mjs": "/dist/69.mjs",
+    "39.mjs": "/dist/39.mjs",
     "fonts/HelveticaNeue-Bold.woff2": "/dist/fonts/HelveticaNeue-Bold.woff2",
     "fonts/HelveticaNeue-Medium.woff2": "/dist/fonts/HelveticaNeue-Medium.woff2",
     "fonts/HelveticaNeue-Light.woff2": "/dist/fonts/HelveticaNeue-Light.woff2",
@@ -17,26 +17,26 @@
     "fonts/FinancierText-Regular.woff2": "/dist/fonts/FinancierText-Regular.woff2",
     "fonts/FinancierText-RegularItalic.woff2": "/dist/fonts/FinancierText-RegularItalic.woff2",
     "fonts/FinancierDisplay-Light.woff2": "/dist/fonts/FinancierDisplay-Light.woff2",
-    "app.494825.svg": "/dist/app.494825.svg",
-    "init.js.map": "/dist/init.js.map",
-    "app.css.map": "/dist/app.css.map",
-    "app.js.map": "/dist/app.js.map",
-    "runtime.js.map": "/dist/runtime.js.map",
-    "975.js.map": "/dist/975.js.map",
-    "69.js.map": "/dist/69.js.map",
-    "39.js.map": "/dist/39.js.map",
-    "init.mjs": "/dist/init.mjs",
-    "app.mjs": "/dist/app.mjs",
-    "runtime.mjs": "/dist/runtime.mjs",
-    "975.mjs": "/dist/975.mjs",
-    "69.mjs": "/dist/69.mjs",
-    "39.mjs": "/dist/39.mjs",
+    "app.42cc43.svg": "/dist/app.42cc43.svg",
     "init.mjs.map": "/dist/init.mjs.map",
+    "app.css.map": "/dist/app.css.map",
     "app.mjs.map": "/dist/app.mjs.map",
     "runtime.mjs.map": "/dist/runtime.mjs.map",
     "975.mjs.map": "/dist/975.mjs.map",
     "69.mjs.map": "/dist/69.mjs.map",
-    "39.mjs.map": "/dist/39.mjs.map"
+    "39.mjs.map": "/dist/39.mjs.map",
+    "init.js": "/dist/init.js",
+    "app.js": "/dist/app.js",
+    "runtime.js": "/dist/runtime.js",
+    "975.js": "/dist/975.js",
+    "69.js": "/dist/69.js",
+    "39.js": "/dist/39.js",
+    "init.js.map": "/dist/init.js.map",
+    "app.js.map": "/dist/app.js.map",
+    "runtime.js.map": "/dist/runtime.js.map",
+    "975.js.map": "/dist/975.js.map",
+    "69.js.map": "/dist/69.js.map",
+    "39.js.map": "/dist/39.js.map"
   },
   "entrypoints": {
     "init": {
@@ -69,7 +69,7 @@
         "/dist/app.css"
       ],
       "svg": [
-        "/dist/app.494825.svg"
+        "/dist/app.42cc43.svg"
       ]
     }
   }
