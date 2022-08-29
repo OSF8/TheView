@@ -2,7 +2,7 @@
 <html class="html" lang="en">
     
     <head>
-        <title>Tag page</title>
+        <title>Filter page</title>
         <meta name="viewport" content="width=device-width">
         <meta charSet="utf-8">
         <link rel="preload" href="/dist/fonts/FinancierDisplay-Light.woff2" as="font"
@@ -39,7 +39,7 @@
         <link rel="preload" href="/dist/init.js" as="script">
     </head>
     
-    <body class="body theme-white">
+    <body class="body">
         <svg width="0" height="0" focusable="false" aria-hidden="true" class="visually-hidden"
         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs>
@@ -196,70 +196,120 @@
         </div>
         <div class="main">
             <div class="main-wrapper components">
-                <div class="top-nav">
-                    <div class="top-nav__breadcrumbs">
-                        <div class="breadcrumbs">
-                            <ul class="breadcrumbs__list">
-                                <li class="breadcrumbs__item"><a class="breadcrumbs__link link" href="/">Home</a>
-                                    <svg class="breadcrumbs__icon icon"
-                                    width="13" height="7" focusable="false">
-                                        <use xlink:href="#icon-slug-arrow"></use>
-                                    </svg>
+                <div data-dc-carousel-filter="true"></div>
+                <section class="section components__item generic-slider generic-slider--image-gallery"
+                data-dc-image-gallery="true">
+                    <div class="generic-slider__inner container">
+                        <div class="generic-slider__slider-container" data-dc-image-gallery-ref="trackWrapper"
+                        data-glide-el="track">
+                            <ul class="generic-slider__list">
+                                <li class="generic-slider__card" data-dc-image-gallery-ref="cards[]">
+                                    <div class="generic-card generic-card--image-gallery">
+                                        <div class="generic-card__media">
+                                            <img class="lazyload" data-srcset="https://i.imgur.com/ERaw170.png" data-sizes="auto">
+                                        </div>
+                                    </div>
                                 </li>
-                                <li class="breadcrumbs__item"><a class="breadcrumbs__link link" href="/">Category</a>
-                                    <svg class="breadcrumbs__icon icon"
-                                    width="13" height="7" focusable="false">
-                                        <use xlink:href="#icon-slug-arrow"></use>
-                                    </svg>
+                                <li class="generic-slider__card" data-dc-image-gallery-ref="cards[]">
+                                    <div class="generic-card generic-card--image-gallery">
+                                        <div class="generic-card__media">
+                                            <img class="lazyload" data-srcset="https://i.imgur.com/GZ5azkY.png" data-sizes="auto">
+                                        </div>
+                                    </div>
                                 </li>
-                                <li class="breadcrumbs__item"><span class="breadcrumbs__current">The man who made canary wharf</span>
+                                <li class="generic-slider__card" data-dc-image-gallery-ref="cards[]">
+                                    <div class="generic-card generic-card--image-gallery">
+                                        <div class="generic-card__media">
+                                            <img class="lazyload" data-srcset="https://i.imgur.com/EAHc0HL.jpeg" data-sizes="auto">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="generic-slider__card" data-dc-image-gallery-ref="cards[]">
+                                    <div class="generic-card generic-card--image-gallery">
+                                        <div class="generic-card__media">
+                                            <img class="lazyload" data-srcset="https://i.imgur.com/ERaw170.png" data-sizes="auto">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="generic-slider__card" data-dc-image-gallery-ref="cards[]">
+                                    <div class="generic-card generic-card--image-gallery">
+                                        <div class="generic-card__media">
+                                            <img class="lazyload" data-srcset="https://i.imgur.com/GZ5azkY.png" data-sizes="auto">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="generic-slider__card" data-dc-image-gallery-ref="cards[]">
+                                    <div class="generic-card generic-card--image-gallery">
+                                        <div class="generic-card__media">
+                                            <img class="lazyload" data-srcset="https://i.imgur.com/ERaw170.png" data-sizes="auto">
+                                        </div>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
-                    </div><a class="top-nav__the-view-logo" href="/"><svg class="icon" width="100" height="14" focusable="false"><use xlink:href="#icon-view-logo"></use></svg></a>
-                </div>
-                <section class="tag-page">
-                    <div class="container">
-                        <h1 class="title-large title-large--centered tag-page__title">Farming</h1>
-                        <div class="tag-page__qty-found">11 results found</div>
-                        <h2 class="tag-page__title-latest">Latest articles</h2>
-                        <ul class="article-cards-grid--article-layout article-cards-grid">
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://the-view.vercel.app/media/tag-page/article-1.jpg" alt="The man who made Canary Wharf"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">The man who made Canary Wharf</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://the-view.vercel.app/media/tag-page/article-2.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aperiam ex harum officia optio soluta tempore"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aperiam ex harum officia optio soluta tempore</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://the-view.vercel.app/media/tag-page/article-3.jpg" alt="Lorem ipsum 3"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Lorem ipsum 3</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://the-view.vercel.app/media/tag-page/article-4.jpg" alt="Lorem ipsum 3"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Lorem ipsum 3</h3></div></a>
-                            </li>
-                        </ul>
-                        <hr class="tag-page__separator">
-                        <ul class="article-cards-grid--article-layout article-cards-grid">
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://the-view.vercel.app/media/tag-page/article-1.jpg" alt="The man who made Canary Wharf"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">The man who made Canary Wharf</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://the-view.vercel.app/media/tag-page/article-2.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aperiam ex harum officia optio soluta tempore"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aperiam ex harum officia optio soluta tempore</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://the-view.vercel.app/media/tag-page/article-3.jpg" alt="Lorem ipsum 3"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Lorem ipsum 3</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://the-view.vercel.app/media/tag-page/article-4.jpg" alt="Lorem ipsum 3"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Lorem ipsum 3</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="/media/tag-page/article-1.jpg" alt="Article1 title"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Article1 title</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/LjYT8Ao.jpeg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aperiam ex harum officia optio soluta tempore"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ad aperiam ex harum officia optio soluta tempore</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/IbsagaW.jpeg" alt="Lorem ipsum 3"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Lorem ipsum 3</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/77HudXd.jpeg" alt="Lorem ipsum 3"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Lorem ipsum 3</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/icgwqS6.jpeg" alt="Lorem ipsum"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Lorem ipsum</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/LjYT8Ao.jpeg" alt="Lorem ipsum 2"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Lorem ipsum 2</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/IbsagaW.jpeg" alt="Lorem ipsum 3"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Lorem ipsum 3</h3></div></a>
-                            </li>
-                            <li><a href="/" class="article-card"><div class="article-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/77HudXd.jpeg" alt="Lorem ipsum 3"></div><div class="article-card__content"><p class="article-card__label">Lifestyle</p><h3 class="article-card__title">Lorem ipsum 3</h3></div></a>
-                            </li>
-                        </ul>
+                        <div data-glide-el="controls" class="generic-slider__controls">
+                            <button type="button" aria-label="previous" data-glide-dir="&lt;" class="btn-arrow">
+                                <svg role="presentation" class="icon" xmlns="http://www.w3.org/2000/svg"
+                                width="10" height="10" focusable="false">
+                                    <use xlink:href="#icon-arrow-left"></use>
+                                </svg>
+                            </button>
+                            <button type="button" aria-label="next" data-glide-dir="&gt;" class="btn-arrow">
+                                <svg role="presentation" class="icon" xmlns="http://www.w3.org/2000/svg"
+                                width="10" height="10" focusable="false">
+                                    <use xlink:href="#icon-arrow-right"></use>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+                <section class="section components__item generic-slider generic-slider--without-filters"
+                data-dc-generic-slider="true">
+                    <div class="generic-slider__inner container">
+                        <div class="generic-slider__head">
+                            <h2 class="generic-slider__title">Related articles</h2>
+                            <div data-glide-el="controls" class="generic-slider__controls">
+                                <button type="button" aria-label="previous" data-glide-dir="&lt;" class="btn-arrow">
+                                    <svg role="presentation" class="icon" xmlns="http://www.w3.org/2000/svg"
+                                    width="10" height="10" focusable="false">
+                                        <use xlink:href="#icon-arrow-left"></use>
+                                    </svg>
+                                </button>
+                                <button type="button" aria-label="next" data-glide-dir="&gt;" class="btn-arrow">
+                                    <svg role="presentation" class="icon" xmlns="http://www.w3.org/2000/svg"
+                                    width="10" height="10" focusable="false">
+                                        <use xlink:href="#icon-arrow-right"></use>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="generic-slider__slider-container" data-dc-generic-slider-ref="trackWrapper"
+                        data-glide-el="track">
+                            <ul class="generic-slider__list">
+                                <li class="generic-slider__card" data-dc-generic-slider-ref="cards[]"><a href="/" class="generic-card"><div class="generic-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/EAHc0HL.jpeg" data-sizes="auto" alt="Cottesmore Gardens"></div><div class="generic-card__content"><h2 class="generic-card__subtitle">London, United Kingdom</h2><h3 class="generic-card__title">Cottesmore Gardens</h3></div></a>
+                                </li>
+                                <li class="generic-slider__card" data-dc-generic-slider-ref="cards[]"><a href="/" class="generic-card"><div class="generic-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/ERaw170.png" data-sizes="auto" alt="Title 2 "></div><div class="generic-card__content"><h2 class="generic-card__subtitle">London, United Kingdom</h2><h3 class="generic-card__title">Title 2 </h3></div></a>
+                                </li>
+                                <li class="generic-slider__card" data-dc-generic-slider-ref="cards[]"><a href="/" class="generic-card"><div class="generic-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/GZ5azkY.png" data-sizes="auto" alt="Title 3"></div><div class="generic-card__content"><h2 class="generic-card__subtitle">London, United Kingdom</h2><h3 class="generic-card__title">Title 3</h3></div></a>
+                                </li>
+                                <li class="generic-slider__card" data-dc-generic-slider-ref="cards[]"><a href="/" class="generic-card"><div class="generic-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/EAHc0HL.jpeg" data-sizes="auto" alt="Title 4 "></div><div class="generic-card__content"><h2 class="generic-card__subtitle">London, United Kingdom</h2><h3 class="generic-card__title">Title 4 </h3></div></a>
+                                </li>
+                                <li class="generic-slider__card" data-dc-generic-slider-ref="cards[]"><a href="/" class="generic-card"><div class="generic-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/ERaw170.png" data-sizes="auto" alt="Title 5"></div><div class="generic-card__content"><h2 class="generic-card__subtitle">London, United Kingdom</h2><h3 class="generic-card__title">Title 5</h3></div></a>
+                                </li>
+                                <li class="generic-slider__card" data-dc-generic-slider-ref="cards[]"><a href="/" class="generic-card"><div class="generic-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/GZ5azkY.png" data-sizes="auto" alt="Title 6"></div><div class="generic-card__content"><h2 class="generic-card__subtitle">London, United Kingdom</h2><h3 class="generic-card__title">Title 6</h3></div></a>
+                                </li>
+                                <li class="generic-slider__card" data-dc-generic-slider-ref="cards[]"><a href="/" class="generic-card"><div class="generic-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/ERaw170.png" data-sizes="auto" alt="Title 7"></div><div class="generic-card__content"><h2 class="generic-card__subtitle">London, United Kingdom</h2><h3 class="generic-card__title">Title 7</h3></div></a>
+                                </li>
+                                <li class="generic-slider__card" data-dc-generic-slider-ref="cards[]"><a href="/" class="generic-card"><div class="generic-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/ERaw170.png" data-sizes="auto" alt="Title 8"></div><div class="generic-card__content"><h2 class="generic-card__subtitle">London, United Kingdom</h2><h3 class="generic-card__title">Title 8</h3></div></a>
+                                </li>
+                                <li class="generic-slider__card" data-dc-generic-slider-ref="cards[]"><a href="/" class="generic-card"><div class="generic-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/ERaw170.png" data-sizes="auto" alt="Title 9 Lorem ipsum"></div><div class="generic-card__content"><h2 class="generic-card__subtitle">London, United Kingdom</h2><h3 class="generic-card__title">Title 9 Lorem ipsum</h3></div></a>
+                                </li>
+                                <li class="generic-slider__card" data-dc-generic-slider-ref="cards[]"><a href="/" class="generic-card"><div class="generic-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/ERaw170.png" data-sizes="auto" alt="Title 10 Lorem ipsum"></div><div class="generic-card__content"><h2 class="generic-card__subtitle">London, United Kingdom</h2><h3 class="generic-card__title">Title 10 Lorem ipsum</h3></div></a>
+                                </li>
+                                <li class="generic-slider__card" data-dc-generic-slider-ref="cards[]"><a href="/" class="generic-card"><div class="generic-card__media"><img class="lazyload" data-srcset="https://i.imgur.com/ERaw170.png" data-sizes="auto" alt="Title 15 Lorem ipsum"></div><div class="generic-card__content"><h2 class="generic-card__subtitle">London, United Kingdom</h2><h3 class="generic-card__title">Title 15 Lorem ipsum</h3></div></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </section>
             </div>
