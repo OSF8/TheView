@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html class="html" lang="en">
+    
+    <head>
+        <title>Richtext styleguide</title>
+        <meta name="viewport" content="width=device-width">
+        <meta charSet="utf-8">
+        <link rel="preload" href="/dist/fonts/FinancierDisplay-Light.woff2" as="font"
+        type="font/woff2">
+        <link rel="preload" href="/dist/fonts/FinancierDisplay-LightItalic.woff2"
+        as="font" type="font/woff2">
+        <link rel="preload" href="/dist/fonts/FinancierText-Bold.woff2" as="font"
+        type="font/woff2">
+        <link rel="preload" href="/dist/fonts/FinancierText-BoldItalic.woff2"
+        as="font" type="font/woff2">
+        <link rel="preload" href="/dist/fonts/FinancierText-Regular.woff2" as="font"
+        type="font/woff2">
+        <link rel="preload" href="/dist/fonts/FinancierText-RegularItalic.woff2"
+        as="font" type="font/woff2">
+        <link rel="preload" href="/dist/fonts/HelveticaNeue-Bold.woff2" as="font"
+        type="font/woff2">
+        <link rel="preload" href="/dist/fonts/HelveticaNeue-Light.woff2" as="font"
+        type="font/woff2">
+        <link rel="preload" href="/dist/fonts/HelveticaNeue-Medium.woff2" as="font"
+        type="font/woff2">
+        <link rel="preload" href="/dist/fonts/HelveticaNeue-Regular.woff2" as="font"
+        type="font/woff2">
+        <link rel="apple-touch-icon" sizes="180x180" href="/dist/favicons/180.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/dist/favicons/32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/dist/favicons/16.png">
+        <link rel="shortcut icon" href="/dist/favicons/32.png">
+        <link rel="manifest" href="/dist/favicons/site-webmanifest.json">
+        <link rel="preload" href="/dist/app.css" as="style">
+        <link rel='stylesheet' href='/dist/app.css'>
+        <link rel="preload" href="/dist/runtime.js" as="script">
+        <link rel="preload" href="/dist/main.js" as="script">
+        <link rel="preload" href="/dist/app.js" as="script">
+        <link rel="preload" href="/dist/main.js" as="script">
+        <link rel="preload" href="/dist/init.js" as="script">
+    </head>
+    
+    <body class="body theme-white">
+        <svg width="0" height="0" focusable="false" aria-hidden="true" class="visually-hidden"
+        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+                <symbol viewBox="0 0 40 40" id="icon-arrow-left">
+                    <path d="M16.1 4.2l1.1 1.1L3.1 19.2H40v1.6H3.1l13.6 13.9-1.3 1.1L1.2 21.2 0 19.9z"></path>
+                </symbol>
+                <symbol viewBox="0 0 40 40" id="icon-arrow-right">
+                    <path d="M23.9 35.8l-1.1-1.1 14.1-13.9H0v-1.6h36.9L23.3 5.3l1.3-1.1 14.2 14.6 1.2 1.3z"></path>
+                </symbol>
+                <symbol viewBox="0 0 44 44" id="icon-kf-logo">
+                    <g id="icon-kf-logo_KF-logo" transform="translate(0 -1.105)">
+                        <path id="icon-kf-logo_Path_115" data-name="Path 115" d="M35.154,20.9H20.5V35.516l7.374,7.374L42.547,28.274Z"
+                        transform="translate(-20.5 -19.795)" fill="#e00034"></path>
+                        <path id="icon-kf-logo_Path_116" data-name="Path 116" d="M20.5,144.274v14.635H35.154l7.393-7.374L27.874,136.9Z"
+                        transform="translate(-20.5 -113.804)" fill="#e00034"></path>
+                        <path id="icon-kf-logo_Path_117" data-name="Path 117" d="M144.774,158.909h14.579V144.161l-7.28-7.261L137.4,151.535Z"
+                        transform="translate(-115.353 -113.804)" fill="#e00034"></path>
+                        <path id="icon-kf-logo_Path_118" data-name="Path 118" d="M137.4,28.274,152.073,42.89l7.28-7.261V20.9H144.774Z"
+                        transform="translate(-115.353 -19.795)" fill="#e00034"></path>
+                    </g>
+                </symbol>
+                <symbol viewBox="0 0 32.778 33.124" id="icon-share">
+                    <defs></defs>
+                    <g id="icon-share_Group_1983" data-name="Group 1983" transform="translate(-1861 -924.222)">
+                        <g id="icon-share_Group_1983-2" data-name="Group 1983" transform="translate(1861 928)">
+                            <g id="icon-share_Group_1985" data-name="Group 1985" clip-path="url(#icon-share_clip-path)">
+                                <path id="icon-share_Path_686" data-name="Path 686" d="M28.847,14.673A14.174,14.174,0,1,1,14.674.5"
+                                fill="none" stroke="#000" stroke-width="1"></path>
+                            </g>
+                        </g>
+                        <g id="icon-share_Group_1986" data-name="Group 1986" transform="translate(2 38)">
+                            <line id="icon-share_Line_2" data-name="Line 2" x2="11" transform="translate(1886.536 891.464) rotate(135)"
+                            fill="none" stroke="#000" stroke-linecap="square" stroke-width="1"></line>
+                            <line id="icon-share_Line_2-2" data-name="Line 2" x2="5" y2="5"
+                            transform="translate(1887.243 890.757) rotate(135)" fill="none" stroke="#000"
+                            stroke-linecap="square" stroke-width="1"></line>
+                            <line id="icon-share_Line_2-3" data-name="Line 2" x2="5" y2="5"
+                            transform="translate(1887.243 897.828) rotate(-135)" fill="none" stroke="#000"
+                            stroke-linecap="square" stroke-width="1"></line>
+                        </g>
+                    </g>
+                </symbol>
+                <clipPath id="icon-share_clip-path">
+                    <rect id="icon-share_Rectangle_687" data-name="Rectangle 687" width="29.346"
+                    height="29.346" transform="translate(0 0)" fill="none" stroke="#000" stroke-width="1"></rect>
+                </clipPath>
+                <symbol viewBox="0 0 26.654 27" id="icon-share-07px">
+                    <defs></defs>
+                    <g id="icon-share-07px_Group_1983" data-name="Group 1983" transform="translate(-1861 -927.65)">
+                        <g id="icon-share-07px_Group_1983-2" data-name="Group 1983" transform="translate(1861 928)">
+                            <g id="icon-share-07px_Group_1985" data-name="Group 1985" clip-path="url(#icon-share-07px_clip-path)">
+                                <path id="icon-share-07px_Path_686" data-name="Path 686" d="M26.243,13.371A12.871,12.871,0,1,1,13.372.5"
+                                transform="translate(-0.046 -0.046)" fill="none" stroke="#000" stroke-width="0.7"></path>
+                            </g>
+                        </g>
+                        <g id="icon-share-07px_Group_1986" data-name="Group 1986" transform="translate(1875.304 928)">
+                            <line id="icon-share-07px_Line_2" data-name="Line 2" x2="12" transform="translate(0 6)"
+                            fill="none" stroke="#000" stroke-linecap="square" stroke-width="0.7"></line>
+                            <line id="icon-share-07px_Line_2-2" data-name="Line 2" x2="12"
+                            transform="translate(6) rotate(90)" fill="none" stroke="#000" stroke-linecap="square"
+                            stroke-width="0.7"></line>
+                        </g>
+                    </g>
+                </symbol>
+                <clipPath id="icon-share-07px_clip-path">
+                    <rect id="icon-share-07px_Rectangle_687" data-name="Rectangle 687" width="26.65"
+                    height="26.65" fill="none" stroke="#000" stroke-width="0.7"></rect>
+                </clipPath>
+                <symbol viewBox="0 0 7.227 7.228" id="icon-slide-arrow">
+                    <path id="icon-slide-arrow_Path_250" data-name="Path 250" d="M7.227,3.614l-.637-.637L4.065,5.5V0h-.9V5.5L.641,2.972,0,3.614,3.614,7.227Z"
+                    transform="translate(0 7.228) rotate(-90)" fill="#191717"></path>
+                </symbol>
+                <symbol viewBox="0 0 13.804 7.707" id="icon-slug-arrow">
+                    <g id="icon-slug-arrow_Group_2170" data-name="Group 2170" transform="translate(-345.673 -194.156)">
+                        <line id="icon-slug-arrow_Line_2" data-name="Line 2" x1="12.586" transform="translate(345.923 198.01)"
+                        fill="none" stroke="#000" stroke-linecap="square" stroke-width="0.5"></line>
+                        <line id="icon-slug-arrow_Line_2-2" data-name="Line 2" x1="3.437"
+                        y1="3.5" transform="translate(355.687 194.51)" fill="none" stroke="#000"
+                        stroke-linecap="square" stroke-width="0.5"></line>
+                        <line id="icon-slug-arrow_Line_2-3" data-name="Line 2" y1="3.5"
+                        x2="3.436" transform="translate(355.687 198.01)" fill="none" stroke="#000"
+                        stroke-linecap="square" stroke-width="0.5"></line>
+                    </g>
+                </symbol>
+                <symbol viewBox="0 0 29.5 29.846" id="icon-subscribe">
+                    <defs></defs>
+                    <g id="icon-subscribe_Group_1983" data-name="Group 1983" transform="translate(-1861 -927.5)">
+                        <g id="icon-subscribe_Group_1983-2" data-name="Group 1983" transform="translate(1861 928)">
+                            <g id="icon-subscribe_Group_1985" data-name="Group 1985" clip-path="url(#icon-subscribe_clip-path)">
+                                <path id="icon-subscribe_Path_686" data-name="Path 686" d="M28.847,14.673A14.174,14.174,0,1,1,14.674.5"
+                                fill="none" stroke="#000" stroke-width="1"></path>
+                            </g>
+                        </g>
+                        <g id="icon-subscribe_Group_1986" data-name="Group 1986" transform="translate(2 38)">
+                            <line id="icon-subscribe_Line_2" data-name="Line 2" x2="12" transform="translate(1876 896)"
+                            fill="none" stroke="#000" stroke-linecap="square" stroke-width="1"></line>
+                            <line id="icon-subscribe_Line_2-2" data-name="Line 2" x2="12" transform="translate(1882 890) rotate(90)"
+                            fill="none" stroke="#000" stroke-linecap="square" stroke-width="1"></line>
+                        </g>
+                    </g>
+                </symbol>
+                <clipPath id="icon-subscribe_clip-path">
+                    <rect id="icon-subscribe_Rectangle_687" data-name="Rectangle 687" width="29.346"
+                    height="29.346" transform="translate(0 0)" fill="none" stroke="#000" stroke-width="1"></rect>
+                </clipPath>
+                <symbol viewBox="0 0 90 12.651" id="icon-view-logo">
+                    <defs></defs>
+                    <g id="icon-view-logo_logo" transform="translate(0 0)">
+                        <g id="icon-view-logo_Group_3" data-name="Group 3" transform="translate(0 0)"
+                        clip-path="url(#icon-view-logo_clip-path)">
+                            <path id="icon-view-logo_Path_3" data-name="Path 3" d="M11.172,0l.144,3.646h-.289C10.648,1.624,9.6.668,7.688.668H6.732v10.5c0,1.011.216,1.155,2.039,1.155v.307H2.545v-.307c1.823,0,2.039-.144,2.039-1.155V.668H3.628C1.715.668.668,1.624.289,3.646H0L.144,0H.361c.072.325.2.361.776.361h9.042c.559,0,.686-.036.776-.361Z"
+                            transform="translate(0 0)" fill="#00040c"></path>
+                            <path id="icon-view-logo_Path_4" data-name="Path 4" d="M102.271,2.925c-1.516,0-1.66.162-1.66,1.281v9.1c0,1.083.18,1.281,1.66,1.281v.307H96.784v-.307c1.48,0,1.66-.2,1.66-1.281V8.664h-5.5V13.3c0,1.083.2,1.281,1.678,1.281v.307H89.132v-.307c1.48,0,1.66-.2,1.66-1.281v-9.1c0-1.119-.144-1.281-1.66-1.281V2.618h5.487v.307c-1.516,0-1.678.162-1.678,1.281V8.357h5.5V4.206c0-1.119-.144-1.281-1.66-1.281V2.618h5.487Z"
+                            transform="translate(-76.842 -2.257)" fill="#00040c"></path>
+                            <path id="icon-view-logo_Path_5" data-name="Path 5" d="M202.033,11.227l-.253,3.664H191.222v-.307c1.48,0,1.661-.2,1.661-1.281v-9.1c0-1.119-.144-1.281-1.661-1.281V2.618h10.414l.162,3.1h-.289c-.469-1.877-1.408-2.8-3.754-2.8H195.03V8.465h2.491c1.769,0,2.4-.379,2.4-2.021h.271v4.368h-.271c0-1.642-.632-2.039-2.4-2.039H195.03v4.44c0,1.119.289,1.372,1.48,1.372h1.534c2.31,0,3.231-1.372,3.7-3.357Z"
+                            transform="translate(-164.856 -2.257)" fill="#00040c"></path>
+                            <path id="icon-view-logo_Path_6" data-name="Path 6" d="M311.267,2.618h3.646v.307c-.415,0-.7.162-1.209,1.462l-4.025,10.522h-1.137L304.12,4.1c-.379-.9-.541-1.173-.993-1.173V2.618h5.017v.307c-1.245,0-1.733.126-1.733.668a2.981,2.981,0,0,0,.271,1.029l3.3,8.428,3.1-8.14A3.771,3.771,0,0,0,313.4,3.7c0-.65-.614-.776-2.13-.776Z"
+                            transform="translate(-261.331 -2.257)" fill="#00040c"></path>
+                            <path id="icon-view-logo_Path_7" data-name="Path 7" d="M395.008,14.891v-.307c1.48,0,1.66-.2,1.66-1.281v-9.1c0-1.119-.144-1.281-1.66-1.281V2.618h5.486v.307c-1.516,0-1.678.162-1.678,1.281v9.1c0,1.083.2,1.281,1.678,1.281v.307Z"
+                            transform="translate(-340.543 -2.257)" fill="#00040c"></path>
+                            <path id="icon-view-logo_Path_8" data-name="Path 8" d="M454.9,11.227l-.253,3.664H444.09v-.307c1.48,0,1.66-.2,1.66-1.281v-9.1c0-1.119-.144-1.281-1.66-1.281V2.618H454.5l.163,3.1h-.289c-.469-1.877-1.408-2.8-3.754-2.8H447.9V8.465h2.491c1.769,0,2.4-.379,2.4-2.021h.271v4.368h-.271c0-1.642-.632-2.039-2.4-2.039H447.9v4.44c0,1.119.289,1.372,1.48,1.372h1.534c2.31,0,3.231-1.372,3.7-3.357Z"
+                            transform="translate(-382.858 -2.257)" fill="#00040c"></path>
+                            <path id="icon-view-logo_Path_9" data-name="Path 9" d="M541.106,2.618h3.628v.307c-.578,0-.776.217-1.336,1.895l-3.321,10.089h-1.137l-2.707-7.815-2.815,7.815h-1.137L528.455,4.152c-.343-1.029-.523-1.227-.993-1.227V2.618h4.747v.307c-.956,0-1.408.108-1.408.722a5.416,5.416,0,0,0,.325,1.372l2.581,7.959,2.328-6.443-.812-2.382c-.379-1.065-.632-1.227-1.444-1.227V2.618h5.414v.307c-1.263,0-1.751.108-1.751.74a4.389,4.389,0,0,0,.289,1.227l2.6,8,2.6-7.923a3.924,3.924,0,0,0,.289-1.209c0-.686-.578-.83-2.112-.83Z"
+                            transform="translate(-454.734 -2.257)" fill="#00040c"></path>
+                        </g>
+                    </g>
+                </symbol>
+                <clipPath id="icon-view-logo_clip-path">
+                    <rect id="icon-view-logo_Rectangle_3" data-name="Rectangle 3" width="90"
+                    height="12.651" fill="#00040c"></rect>
+                </clipPath>
+            </defs>
+        </svg>
+        <div class="sidebar">
+            <div class="sidebar__the-view-title">
+                <svg class="icon" width="126" height="18" focusable="false">
+                    <use xlink:href="#icon-view-logo"></use>
+                </svg>
+            </div>
+            <div data-dc-burger-menu="{&quot;items&quot;: [{&quot;text&quot;:&quot;Category&quot;,&quot;intro&quot;:&quot;Example content: lorem ipsum&quot;,&quot;url&quot;:&quot;/&quot;},{&quot;text&quot;:&quot;Category long title&quot;,&quot;intro&quot;:&quot;Category 2 intro&quot;,&quot;url&quot;:&quot;/&quot;},{&quot;text&quot;:&quot;Category&quot;,&quot;intro&quot;:&quot;Category 3 intro&quot;,&quot;url&quot;:&quot;/&quot;},{&quot;text&quot;:&quot;Category&quot;,&quot;intro&quot;:&quot;Category 4 intro&quot;,&quot;url&quot;:&quot;/&quot;},{&quot;text&quot;:&quot;Category&quot;,&quot;intro&quot;:&quot;Category 5 intro&quot;,&quot;url&quot;:&quot;/&quot;}], &quot;texts&quot;: [&quot;LOREM IPSUM DOLOR SIT AMET, LOREM IPSUM CONSECTETUR ADIPISCING ELIT&quot;,&quot;FLOREM IPSUM DOLOR SIT AMET, LOREM IPSUM CONSECTETUR ADIPISCING ELIT&quot;,&quot;LOREM IPSUM DOLOR SIT AMET, LOREM IPSUM CONSECTETUR ADIPISCING ELIT&quot;], &quot;subscribeLink&quot;: &quot;/&quot;, &quot;nightfrankLink&quot;: &quot;/&quot;}">
+                <div class="menu-icon">
+                    <div class="hamburger hamburger--squeeze" data-dc-burger-menu-ref="btn">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar__footer"><a href="/" class="subscribe-link--footer subscribe-link"><svg class="icon" width="27" height="27" focusable="false"><use xlink:href="#icon-subscribe"></use></svg><span>Subscribe</span></a>
+                <div
+                class="sitelogo"><a href="https://www.knightfrank.com/" title="Knight Frank"><svg class="icon sitelogo__icon" width="36" height="36" focusable="false"><use xlink:href="#icon-kf-logo"></use></svg></a>
+            </div>
+        </div>
+        </div>
+        <div class="main">
+            <div class="main-wrapper components">
+                <section class="text-component">
+                    <div class="container">
+                        <h2 class="title-large">HEADINGS</h2>
+                        <div class="richtext">
+                            <h1>H1: Strokes of Genius</h1>
+                            <p>A conversation about a garage full of paint tins and the difficulties
+                                with disposing of them was the catalyst for the launch of forward-thinking
+                                new company YesColours, who have tackled the problem by developing Europe’s
+                                first waste saving, fully recyclable paint pouches.</p>
+                            <h2>H2: Strokes of Genius</h2>
+                            <p>A conversation about a garage full of paint tins and the difficulties
+                                with disposing of them was the catalyst for the launch of forward-thinking
+                                new company YesColours, who have tackled the problem by developing Europe’s
+                                first waste saving, fully recyclable paint pouches.</p>
+                            <h3>H3: Strokes of Genius</h3>
+                            <p>A conversation about a garage full of paint tins and the difficulties
+                                with disposing of them was the catalyst for the launch of forward-thinking
+                                new company YesColours, who have tackled the problem by developing Europe’s
+                                first waste saving, fully recyclable paint pouches.</p>
+                            <h4>H4: Strokes of Genius</h4>
+                            <p>A conversation about a garage full of paint tins and the difficulties
+                                with disposing of them was the catalyst for the launch of forward-thinking
+                                new company YesColours, who have tackled the problem by developing Europe’s
+                                first waste saving, fully recyclable paint pouches.</p>
+                            <h5>H5: Strokes of Genius</h5>
+                            <p>A conversation about a garage full of paint tins and the difficulties
+                                with disposing of them was the catalyst for the launch of forward-thinking
+                                new company YesColours, who have tackled the problem by developing Europe’s
+                                first waste saving, fully recyclable paint pouches.</p>
+                            <h6>H6: Strokes of Genius</h6>
+                            <p>A conversation about a garage full of paint tins and the difficulties
+                                with disposing of them was the catalyst for the launch of forward-thinking
+                                new company YesColours, who have tackled the problem by developing Europe’s
+                                first waste saving, fully recyclable paint pouches.</p>
+                        </div>
+                        <h2 class="title-large">PARAGRAPHS</h2>
+                        <div class="richtext">
+                            <p><strong>A conversation about a garage full of paint</strong> tins and the
+                                difficulties with disposing of them was the catalyst for the launch of
+                                forward-thinking new company <a href="https://google.com">YesColours</a>,
+                                who have tackled the problem by developing Europe’s first waste saving,
+                                fully recyclable paint pouches.</p>
+                            <p>“Currently <strong>over 55 million litres</strong> of paint and <strong>14,000 tonnes of tins</strong> go
+                                to landfill every year and only two per cent are recycled, which is astonishing,”
+                                says creative director and co-founder Emma Bestley. “Our aim is to empower
+                                customers that care about the environment, and being hugely passionate
+                                about sustainability ourselves it’s at the heart of how we operate; from
+                                supply chains to raw materials, to supporting British manufacturers. Our
+                                paint is also available by the litre to help avoid over ordering, which
+                                is a massive contributor to UK paint waste.” Formulating vegan, cruelty-free
+                                products with zero per cent added <a href="http://goolge.com">VOCs</a> (Volatile
+                                organic compounds that give synthetic products a ‘new carpet’ smell and
+                                are sometimes harmful) was also a priority, as was avoiding the use of
+                                any microplastics.</p>
+                        </div>
+                        <h2 class="title-large">Blockqute</h2>
+                        <div class="richtext">
+                            <figure>
+                                <blockquote>
+                                    <p>There are more than 300 shops and restaurants in Canary Wharf, four health
+                                        clubs and 20 acres of outdoor space. The site hosts 200 cultural events
+                                        every year</p>
+                                </blockquote>
+                                <figcaption>SIR GEORGE IACOBESCU</figcaption>
+                            </figure>
+                        </div>
+                        <h2 class="title-large">Horizontal rule</h2>
+                        <div class="richtext">
+                            <p>Respondents to our Attitudes Survey also take an optimistic view, with
+                                93% expecting their clients wealth to stay the same or increase in 2021.
+                                Just over one-fifth of these expect a significant – above 10% – increase.</p>
+                            <hr>
+                            <p>Same or increase in 2021. Just over one-fifth of these expect a significant
+                                – above 10% – increase.</p>
+                        </div>
+                        <h2 class="title-large">Ordered list</h2>
+                        <div class="richtext">
+                            <ol>
+                                <li>Global population of UHNWIs will grow by 27% over the next five years</li>
+                                <li>Asia tops our five-year UHNWI growth forecast with 39%, led by Indonesia
+                                    on 67% and India on 63%</li>
+                                <li>Africa is expected to see the second biggest regional five-year UHNWI
+                                    growth rate</li>
+                            </ol>
+                        </div>
+                        <h2 class="title-large">Unordered list</h2>
+                        <div class="richtext">
+                            <ul>
+                                <li>Global population of UHNWIs will grow by 27% over the next five years</li>
+                                <li>Asia tops our five-year UHNWI growth forecast with 39%, led by Indonesia
+                                    on 67% and India on 63%</li>
+                                <li>Africa is expected to see the second biggest regional five-year UHNWI
+                                    growth rate</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="footer-wrapper">
+                <div class="container footer-container">
+                    <footer class="footer"><a href="/"><svg class="icon footer__logo" width="100" height="14" focusable="false"><use xlink:href="#icon-view-logo"></use></svg></a>
+                        <div
+                        class="footer__nav-copy">
+                            <div class="footer__copyright">© copyright message</div>
+                            <div class="footer-nav">
+                                <ul class="footer-nav__list">
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="/">Privacy Policy</a>
+                                    </li>
+                                    <li class="footer-nav__item"><a class="footer-nav__link" href="/">Terms &amp; Conditions</a>
+                                    </li>
+                                </ul>
+                            </div>
+                </div>
+                <div class="footer__back-to-top" data-dc-back-to-top="true">
+                    <svg class="icon footer__back-to-top-logo" width="6" height="6" focusable="false">
+                        <use xlink:href="#icon-slide-arrow"></use>
+                    </svg>
+                </div>
+                </footer>
+            </div>
+        </div>
+        </div>
+        <script defer src='/dist/runtime.js'></script>
+        <script defer src='/dist/main.js'></script>
+        <script defer src='/dist/app.js'></script>
+        <script defer src='/dist/main.js'></script>
+        <script defer src='/dist/init.js'></script>
+    </body>
+
+</html>
