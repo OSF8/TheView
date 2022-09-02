@@ -17,20 +17,12 @@
     "fonts/FinancierText-Regular.woff2": "/dist/fonts/FinancierText-Regular.woff2",
     "fonts/FinancierText-RegularItalic.woff2": "/dist/fonts/FinancierText-RegularItalic.woff2",
     "fonts/FinancierDisplay-Light.woff2": "/dist/fonts/FinancierDisplay-Light.woff2",
-    "app.69f6ef.svg": "/dist/app.69f6ef.svg",
+    "app.d362bc.svg": "/dist/app.d362bc.svg",
     "init.js.map": "/dist/init.js.map",
     "app.css.map": "/dist/app.css.map",
     "app.js.map": "/dist/app.js.map",
     "runtime.js.map": "/dist/runtime.js.map",
-    "main.js.map": "/dist/main.js.map",
-    "init.mjs": "/dist/init.mjs",
-    "app.mjs": "/dist/app.mjs",
-    "runtime.mjs": "/dist/runtime.mjs",
-    "main.mjs": "/dist/main.mjs",
-    "init.mjs.map": "/dist/init.mjs.map",
-    "app.mjs.map": "/dist/app.mjs.map",
-    "runtime.mjs.map": "/dist/runtime.mjs.map",
-    "main.mjs.map": "/dist/main.mjs.map"
+    "main.js.map": "/dist/main.js.map"
   },
   "entrypoints": {
     "init": {
@@ -38,10 +30,7 @@
         "/dist/main.js",
         "/dist/init.js"
       ],
-      "mjs": [
-        "/dist/main.mjs",
-        "/dist/init.mjs"
-      ],
+      "mjs": [],
       "css": []
     },
     "app": {
@@ -50,16 +39,12 @@
         "/dist/main.js",
         "/dist/app.js"
       ],
-      "mjs": [
-        "/dist/runtime.mjs",
-        "/dist/main.mjs",
-        "/dist/app.mjs"
-      ],
+      "mjs": [],
       "css": [
         "/dist/app.css"
       ],
       "svg": [
-        "/dist/app.69f6ef.svg"
+        "/dist/app.d362bc.svg"
       ]
     }
   }
