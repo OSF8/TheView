@@ -34,6 +34,8 @@ object-assign
     MIT License: http://getify.mit-license.org
 */
 
+/*! choices.js v10.1.0 | © 2022 Josh Johnson | https://github.com/jshjohnson/Choices#readme */
+
 /**
  * what-input - A global utility for tracking the current input method (mouse, keyboard or touch).
  * @version v5.2.10
