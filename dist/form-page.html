@@ -39,7 +39,7 @@
         <link rel="preload" href="/dist/init.js" as="script">
     </head>
     
-    <body class="body theme-beige">
+    <body class="body is-subscribe-page theme-beige">
         <svg width="0" height="0" focusable="false" aria-hidden="true" class="visually-hidden"
         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs>
@@ -161,15 +161,38 @@
                         </g>
                         <g id="icon-subscribe_Group_1986" data-name="Group 1986" transform="translate(2 38)">
                             <line id="icon-subscribe_Line_2" data-name="Line 2" x2="12" transform="translate(1876 896)"
-                            fill="none" stroke="#000" stroke-linecap="square" stroke-width="1"></line>
+                            fill="none" stroke="#000000" stroke-linecap="square" stroke-width="1"></line>
                             <line id="icon-subscribe_Line_2-2" data-name="Line 2" x2="12" transform="translate(1882 890) rotate(90)"
-                            fill="none" stroke="#000" stroke-linecap="square" stroke-width="1"></line>
+                            fill="none" stroke="#000000" stroke-linecap="square" stroke-width="1"></line>
                         </g>
                     </g>
                 </symbol>
                 <clipPath id="icon-subscribe_clip-path">
                     <rect id="icon-subscribe_Rectangle_687" data-name="Rectangle 687" width="29.346"
                     height="29.346" transform="translate(0 0)" fill="none" stroke="#000" stroke-width="1"></rect>
+                </clipPath>
+                <symbol viewBox="0 0 29.5 29.846" id="icon-subscribe-red">
+                    <defs></defs>
+                    <g id="icon-subscribe-red_Group_1983" data-name="Group 1983" transform="translate(-1861 -927.5)">
+                        <g id="icon-subscribe-red_Group_1983-2" data-name="Group 1983" transform="translate(1861 928)">
+                            <g id="icon-subscribe-red_Group_1985" data-name="Group 1985" clip-path="url(#icon-subscribe-red_clip-path)">
+                                <path id="icon-subscribe-red_Path_686" data-name="Path 686" d="M28.847,14.673A14.174,14.174,0,1,1,14.674.5"
+                                fill="none" stroke="#e00034" stroke-width="1"></path>
+                            </g>
+                        </g>
+                        <g id="icon-subscribe-red_Group_1986" data-name="Group 1986" transform="translate(2 38)">
+                            <line id="icon-subscribe-red_Line_2" data-name="Line 2" x2="12" transform="translate(1876 896)"
+                            fill="none" stroke="#e00034" stroke-linecap="square" stroke-width="1"></line>
+                            <line id="icon-subscribe-red_Line_2-2" data-name="Line 2" x2="12"
+                            transform="translate(1882 890) rotate(90)" fill="none" stroke="#e00034"
+                            stroke-linecap="square" stroke-width="1"></line>
+                        </g>
+                    </g>
+                </symbol>
+                <clipPath id="icon-subscribe-red_clip-path">
+                    <rect id="icon-subscribe-red_Rectangle_687" data-name="Rectangle 687"
+                    width="29.346" height="29.346" transform="translate(0 0)" fill="none" stroke="#e00034"
+                    stroke-width="1"></rect>
                 </clipPath>
                 <symbol viewBox="0 0 90 12.651" id="icon-view-logo">
                     <defs></defs>
@@ -214,7 +237,7 @@
                     </div>
                 </div>
             </div>
-            <div class="sidebar__footer"><a href="/" class="subscribe-link--footer subscribe-link"><svg class="icon" width="27" height="27" focusable="false"><use xlink:href="#icon-subscribe"></use></svg><span>Subscribe</span></a>
+            <div class="sidebar__footer"><a href="/" class="subscribe-link--footer subscribe-link"><svg class="icon subscribe-link__black" width="27" height="27" focusable="false"><use xlink:href="#icon-subscribe"></use></svg><svg class="icon subscribe-link__red" width="27" height="27" focusable="false"><use xlink:href="#icon-subscribe-red"></use></svg><span>Subscribe</span></a>
                 <div
                 class="sitelogo"><a href="https://www.knightfrank.com/" title="Knight Frank"><svg class="icon sitelogo__icon" width="36" height="36" focusable="false"><use xlink:href="#icon-kf-logo"></use></svg></a>
             </div>
@@ -257,7 +280,7 @@
                                         required=""><span data-dc-form-validate-ref="message-area" class="message-area"></span>
                                     </label>
                                     <label class="form-field form__item form-field--required">
-                                        <input type="email" class="input input--form" name="email" placeholder="E-mail*"
+                                        <input type="email" class="input input--form" name="email" placeholder="E-mail address*"
                                         data-dc-form-validate-ref="inputs[]" data-dc-form-validate-message="Valid e-mail is required"
                                         required=""><span data-dc-form-validate-ref="message-area" class="message-area"></span>
                                     </label>
@@ -273,8 +296,8 @@
                                 </div>
                                 <div class="form__wrapper-center">
                                     <label class="form-checkbox form__item form__item--full-width">
-                                        <input type="radio" class="checkbox checkbox--radio-btn form-checkbox__control"
-                                        name="consent" value="true" data-dc-form-validate-ref="inputs[]" data-dc-form-validate-message="Consent is required"
+                                        <input type="checkbox" class="checkbox form-checkbox__control" name="consent"
+                                        value="true" data-dc-form-validate-ref="inputs[]" data-dc-form-validate-message="Consent is required"
                                         required=""><span class="form-checkbox__wrapper"><span class="form-checkbox__content">I CONSENT TO MY DATA BEING USED FOR MARKETING PURPOSES.</span></span>
                                         <span
                                         data-dc-form-validate-ref="message-area" class="message-area"></span>
