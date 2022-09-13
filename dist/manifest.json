@@ -17,7 +17,7 @@
     "fonts/FinancierText-Regular.woff2": "/dist/fonts/FinancierText-Regular.woff2",
     "fonts/FinancierText-RegularItalic.woff2": "/dist/fonts/FinancierText-RegularItalic.woff2",
     "fonts/FinancierDisplay-Light.woff2": "/dist/fonts/FinancierDisplay-Light.woff2",
-    "app.e6f699.svg": "/dist/app.e6f699.svg",
+    "app.acefcd.svg": "/dist/app.acefcd.svg",
     "init.js.map": "/dist/init.js.map",
     "app.css.map": "/dist/app.css.map",
     "app.js.map": "/dist/app.js.map",
@@ -59,7 +59,7 @@
         "/dist/app.css"
       ],
       "svg": [
-        "/dist/app.e6f699.svg"
+        "/dist/app.acefcd.svg"
       ]
     }
   }
